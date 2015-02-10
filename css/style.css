@@ -164,7 +164,6 @@ h2 {
 	margin-left: -5px;
 	padding: 5px;
 	width: 273px;
-	
 }
 
 body{
@@ -175,35 +174,15 @@ body{
 	color: #675A5A;
 }
 
-.leaflet-clickable {
-	stroke-opacity: .8;
-	z-index: 10;
-}
-
 .leafletoclickable: hover{
 	width: 5;
 	z-index: 10;
 }
-
+/*SM markers*/
 .leaflet-clickable {
-    -webkit-transition-property: background color;
-    -webkit-transition-duration: .5s;
-    -webkit-transition-timing-function: ease-in;
-    -moz-transition-property: background color;
-    -moz-transition-duration: .5s;
-    -moz-transition-timing-function: ease-in;
-    -o-transition-property: background color;
-    -o-transition-duration: .5s;
-    -o-transition-timing-function: ease-in;
-    -ms-transition-property: background color;
-    -ms-transition-duration: .5s;
-    -ms-transition-timing-function: ease-in;
-    transition-property: background color;
-    transition-duration: .5s;
-    transition-timing-function: ease-in;
-}
-
-#svg.leaflet-zoom-animated{
+	marker-width: 50%;
+    stroke-opacity: .8;
+	z-index: 10;
 	-webkit-transition-property: background color;
     -webkit-transition-duration: .5s;
     -webkit-transition-timing-function: ease-in;
@@ -252,3 +231,4 @@ body{
     border: thin solid #000000;
     z-index: 100;
 }
+
